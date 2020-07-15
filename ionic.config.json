@@ -1,0 +1,16 @@
+{
+  "name": "supr-app-v3",
+  "integrations": {
+    "cordova": {},
+    "enterprise": {
+      "keyId": 131,
+      "productKey": "key_b82703304f9c4ddba4227e70c702e22c",
+      "appId": "3308640d",
+      "orgId": "cdef27d2-e22c-4e12-b211-3685386a63c5",
+      "registries": [
+        "@ionic-enterprise;https://registry.ionicframework.com/"
+      ]
+    }
+  },
+  "type": "angular"
+}

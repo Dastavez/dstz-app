@@ -1,0 +1,42 @@
+@import "supr-base";
+
+:host {
+    --supr-image-width: 100%;
+    --supr-image-height: 100%;
+    --supr-image-border-width: 0px;
+    --supr-image-border-color: transparent;
+    --supr-image-border-radius: 5px;
+    --supr-image-wrapper-width: inherit;
+    --supr-image-wrapper-height: inherit;
+    --supr-image-bg-color: transparent;
+    --supr-image-wrapper-padding: 0px;
+    --supr-image-display: inherit;
+    --supr-image-wrapper-box-shadow: none;
+    --supr-image-opacity: 1;
+
+    ion-img,
+    img {
+        width: var(--supr-image-width);
+        height: var(--supr-image-height);
+        visibility: visible;
+    }
+
+    img {
+        display: var(--supr-image-display);
+        opacity: var(--supr-image-opacity);
+    }
+
+    .wrapper {
+        @include center-all;
+
+        box-shadow: var(--supr-image-wrapper-box-shadow);
+        background-color: var(--supr-image-bg-color);
+        border-radius: var(--supr-image-border-radius);
+        width: var(--supr-image-wrapper-width);
+        height: var(--supr-image-wrapper-height);
+        padding: var(--supr-image-wrapper-padding);
+        overflow: hidden;
+        border: var(--supr-image-border-width) solid
+            var(--supr-image-border-color);
+    }
+}

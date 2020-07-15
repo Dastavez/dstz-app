@@ -1,0 +1,85 @@
+@import "supr-base";
+
+.supr {
+    &VisibleDelay {
+        --animation-duration: 0.2s;
+        --animation-timing-function: ease-in-out;
+        --animation-delay: 0s;
+        --animation-iteration-count: 1;
+        --animation-direction: normal;
+        --animation-fill-mode: both;
+
+        animation-duration: var(--animation-duration);
+        animation-timing-function: var(--animation-timing-function);
+        animation-delay: var(--animation-delay);
+        animation-iteration-count: var(--animation-iteration-count);
+        animation-direction: var(--animation-direction);
+        animation-fill-mode: var(--animation-fill-mode);
+        animation-play-state: running;
+        animation-name: visibleDelay;
+    }
+
+    &SlideUp {
+        --animation-duration: 0.3s;
+        --animation-timing-function: ease-in-out;
+        --animation-delay: 0s;
+        --animation-iteration-count: 1;
+        --animation-direction: normal;
+        --animation-fill-mode: both;
+
+        animation-duration: var(--animation-duration);
+        animation-timing-function: var(--animation-timing-function);
+        animation-delay: var(--animation-delay);
+        animation-iteration-count: var(--animation-iteration-count);
+        animation-direction: var(--animation-direction);
+        animation-fill-mode: var(--animation-fill-mode);
+        animation-play-state: running;
+        animation-name: slideUp;
+    }
+}
+
+@keyframes visibleDelay {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

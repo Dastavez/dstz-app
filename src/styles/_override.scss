@@ -1,0 +1,156 @@
+//Global definitions
+@import "supr-base";
+
+* {
+    font-family: var(--supr-font-family) !important;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: var(--supr-font-family) !important;
+    font-size: var(--supr-font-size-regular);
+    line-height: var(--supr-font-line-height);
+    letter-spacing: -0.5px;
+    -moz-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-weight: 400;
+    color: var(--black-100);
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+div {
+    color: inherit;
+    background: transparent;
+
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+//Scroll
+*::-webkit-scrollbar {
+    width: 0 !important;
+}
+
+//Swiper
+.swiper-container,
+.swiper-wrapper,
+.swiper-slider {
+    overflow: visible;
+}
+
+.swiper-slide img {
+    max-width: none !important;
+}
+
+// Ion
+.ion-activatable {
+    position: relative !important;
+}
+
+//Input
+form {
+    width: 100%;
+    height: 100%;
+}
+
+input.supr-input {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+
+    width: 100%;
+    height: 100%;
+    display: block;
+
+    color: inherit;
+    background: transparent;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+
+    box-sizing: border-box;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+/**
+ * Remove default outlines.
+ */
+a,
+button,
+:focus,
+a:focus,
+button:focus,
+a:active,
+a:hover {
+    outline: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+input {
+    line-height: normal;
+}
+
+a,
+a:hover,
+a:focus,
+a:visited {
+    text-decoration: none;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+video {
+    pointer-events: none;
+}
+
+video::-webkit-media-controls-start-playback-button {
+    display: none;
+}

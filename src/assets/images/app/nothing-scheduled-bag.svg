@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="141" height="79" fill="none" viewBox="0 0 141 79">
+    <path stroke="#fff" stroke-linecap="round" stroke-opacity=".6" d="M128.81 51.826h11.688M134.655 57.67V45.982M20.443 16.121h5.604M23.247 18.923V13.32"/>
+    <circle cx="118.83" cy="24.286" r="4.203" fill="#fff" fill-opacity=".6"/>
+    <ellipse cx="19.865" cy="71.533" fill="#fff" fill-opacity=".6" rx="2.802" ry="2.868"/>
+    <ellipse cx="108.818" cy="55.819" fill="#fff" fill-opacity=".6" rx="1.896" ry="1.941"/>
+    <ellipse cx="2.802" cy="41.298" fill="#fff" fill-opacity=".6" rx="2.802" ry="2.868"/>
+    <ellipse cx="60.482" cy="2.868" fill="#fff" fill-opacity=".6" rx="2.802" ry="2.868"/>
+    <path stroke="#fff" stroke-width="3" d="M38.672 77.168l3.16-52.644H96.58l2.807 52.644H38.672zM47.892 30.385c13.851-25.633 32.377-24.928 42.663 0"/>
+    <path stroke="#fff" stroke-width="2" d="M97.88 65.384c14.967.37 23.383 1.157 38.182 3.896M.489 69.019c14.657-2.279 22.905-2.985 37.663-3.377"/>
+    <path fill="#fff" fill-opacity=".15" d="M43.625 62.619l1.422-24.65h1.897l-.949 24.65h-2.37zM43.154 68.781l.474-4.74h2.37l-.474 4.74h-2.37z"/>
+</svg>

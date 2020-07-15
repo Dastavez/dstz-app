@@ -1,0 +1,55 @@
+:root {
+    /** Paddings **/
+    --supr-content-horizontal-padding: 16px;
+    --supr-content-vertical-padding: 24px;
+    --supr-content-padding: var(--supr-content-vertical-padding)
+        var(--supr-content-horizontal-padding);
+
+    /** Line height */
+    --supr-line-height-ratio: 1.4;
+
+    /** Z index **/
+    --supr-base-z-index: 100;
+    --supr-sticky-wrapper-z-index: 500;
+    --supr-backdrop-z-index: 1000;
+
+    /** Font Sizes */
+    --supr-font-size-extra-large: 28px;
+    --supr-font-size-medium-large: 24px;
+    --supr-font-size-large: 20px;
+    --supr-font-size-medium: 16px;
+    --supr-font-size-regular: 14px;
+    --supr-font-size-small: 12px;
+    --supr-font-size-semi-small: 11px;
+    --supr-font-size-extra-small: 10px;
+    --supr-font-size-tiny: 8px;
+
+    /** Font weights */
+    --supr-weight-normal: 400;
+    --supr-weight-semi-bold: 600;
+    --supr-weight-bold: 700;
+    --supr-weight-extra-bold: 800;
+
+    /** Icon Sizes */
+    --supr-icon-font-size: 16px;
+
+    /** Grid Sizes */
+    --supr-grid-size: 16px;
+
+    /** Otp Input */
+    --supr-otp-input-box-radius: 4px;
+    --supr-otp-input-box-width: 45px;
+    --supr-otp-input-box-height: 48px;
+    --supr-otp-input-box-spacing: 8px;
+
+    /** Page header */
+    --supr-page-header-height: 72px;
+    --supr-page-header-width: 100vw;
+
+    /** Page footer */
+    --supr-page-footer-height: 64px;
+    --supr-page-footer-width: 100vw;
+
+    /** No Internet banner height */
+    --supr-no-internet-banner-height: 32px;
+}

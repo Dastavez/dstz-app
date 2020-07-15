@@ -1,0 +1,34 @@
+@import "supr-base";
+
+:host {
+    --supr-icon-disable-opacity: 0.3;
+    --supr-icon-font-weight: var(--supr-weight-normal);
+    --supr-icon-color: var(--black-100);
+    --supr-icon-wrapper-size: var(--supr-icon-font-size);
+
+    /**
+        --supr-icon-font-size
+        ^^^^^^^^^^^^^^^^^^^^^
+        Global variable for size. Any component can override this directly
+     */
+    .wrapper {
+        @include center-all;
+
+        width: var(--supr-icon-wrapper-size);
+        height: var(--supr-icon-wrapper-size);
+    }
+
+    .icon {
+        color: var(--supr-icon-color);
+        width: var(--supr-icon-font-size);
+        height: var(--supr-icon-font-size);
+
+        &:before {
+            font-weight: var(--supr-icon-font-weight);
+        }
+    }
+
+    .disabled {
+        opacity: var(--supr-icon-disable-opacity);
+    }
+}

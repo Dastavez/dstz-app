@@ -1,0 +1,49 @@
+@import "supr-base";
+
+:host {
+    --supr-button-bg-color: var(--primary-100);
+    --supr-button-text-color: var(--white-100);
+    --supr-button-border-color: var(--primary-100);
+    --supr-button-border-radius: 4px;
+    --supr-button-border-width: 1px;
+    --supr-button-border-style: solid;
+    --supr-button-width: inherit;
+    --supr-button-height: 40px;
+    --supr-button-padding: 0 16px;
+    --supr-button-text-transform: none;
+    --supr-button-disabled-opacity: 0.5;
+    --supr-button-disabled-bg-color: var(--black-20);
+    --supr-button-disabled-border-color: var(--black-5);
+
+    --supr-button-loader-color: var(--white-100);
+
+    .button {
+        @include button();
+
+        color: var(--supr-button-text-color);
+        background-color: var(--supr-button-bg-color);
+        border-color: var(--supr-button-border-color);
+        border-width: var(--supr-button-border-width);
+        border-style: var(--supr-button-border-style);
+        border-radius: var(--supr-button-border-radius);
+        width: var(--supr-button-width);
+        height: var(--supr-button-height);
+        text-transform: var(--supr-button-text-transform);
+        transition: background-color 0.3s ease-in-out,
+            border-color 0.3s ease-in-out;
+
+        &.disabled {
+            opacity: var(--supr-button-disabled-opacity);
+            background-color: var(--supr-button-disabled-bg-color);
+            border-color: var(--supr-button-disabled-border-color);
+        }
+
+        supr-loader {
+            --supr-loader-color: var(--supr-button-loader-color);
+        }
+
+        ion-ripple-effect {
+            border-radius: var(--supr-button-border-radius);
+        }
+    }
+}

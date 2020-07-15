@@ -1,0 +1,205 @@
+@mixin title() {
+    font-family: var(--supr-font-family);
+    font-size: var(--supr-font-size-extra-large);
+    font-weight: var(--supr-weight-bold);
+    line-height: 36px;
+    // line-height: 1.29;
+}
+
+@mixin subtitle() {
+    font-family: var(--supr-font-family);
+    font-size: var(--supr-font-size-large);
+    font-weight: var(--supr-weight-bold);
+    line-height: 28px;
+    // line-height: 1.4;
+}
+
+@mixin heading() {
+    font-family: var(--supr-font-family);
+    font-size: var(--supr-font-size-large);
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 24px;
+    // line-height: 1.2;
+    letter-spacing: normal;
+}
+
+@mixin subheading() {
+    font-family: var(--supr-font-family);
+    font-size: var(--supr-font-size-medium);
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 24px;
+    // line-height: 1.5;
+    letter-spacing: normal;
+}
+
+@mixin paragraph() {
+    font-family: var(--supr-font-family);
+    font-size: var(--supr-font-size-small);
+    font-weight: var(--supr-weight-semi-bold);
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 16px;
+    // line-height: 1.33;
+    letter-spacing: normal;
+}
+
+@mixin caption() {
+    font-family: var(--supr-font-family);
+    font-size: var(--supr-font-size-small);
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 16px;
+    // line-height: 1.33;
+    letter-spacing: normal;
+}
+
+@mixin action14 {
+    font-family: var(--supr-font-family);
+    font-size: var(--supr-font-size-regular);
+    font-weight: var(--supr-weight-semi-bold);
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 16px;
+    // line-height: 1.14;
+    letter-spacing: normal;
+}
+
+@mixin body {
+    font-family: var(--supr-font-family);
+    font-size: var(--supr-font-size-regular);
+    font-weight: var(--supr-weight-semi-bold);
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 20px;
+    // line-height: 1.43;
+    letter-spacing: normal;
+}
+
+@mixin subtext10 {
+    font-family: var(--supr-font-family);
+    font-size: var(--supr-font-size-extra-small);
+    font-weight: var(--supr-weight-semi-bold);
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 16px;
+    // line-height: 1.6;
+    letter-spacing: normal;
+}
+
+@mixin subtext11 {
+    font-family: var(--supr-font-family);
+    font-size: var(--supr-font-size-semi-small);
+    font-weight: var(--supr-weight-semi-bold);
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 17px;
+    // line-height: 1.6;
+    letter-spacing: normal;
+}
+
+@mixin regular14 {
+    font-family: var(--supr-font-family);
+    font-size: var(--supr-font-size-regular);
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 20px;
+    // line-height: 1.43;
+    letter-spacing: normal;
+}
+
+@mixin bold16 {
+    font-family: var(--supr-font-family);
+    font-size: var(--supr-font-size-medium);
+    font-weight: var(--supr-weight-bold);
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 22.4px;
+    // line-height: 1.4;
+    letter-spacing: normal;
+}
+
+@mixin montserratExtraBold14 {
+    font-family: var(--supr-font-family-montserrat) !important;
+    font-size: var(--supr-font-size-regular);
+    font-weight: var(--supr-weight-extra-bold);
+    line-height: 1.2;
+    letter-spacing: 0.8px;
+    font-stretch: normal;
+    font-style: normal;
+}
+
+@mixin montserratExtraBold16 {
+    font-family: var(--supr-font-family-montserrat) !important;
+    font-size: var(--supr-font-size-medium);
+    font-weight: var(--supr-weight-extra-bold);
+    line-height: 1;
+    letter-spacing: 0.8px;
+    font-stretch: normal;
+    font-style: normal;
+}
+
+@mixin montserratExtraBold20 {
+    font-family: var(--supr-font-family-montserrat) !important;
+    font-size: var(--supr-font-size-large);
+    font-weight: var(--supr-weight-extra-bold);
+    line-height: 1.04;
+    letter-spacing: 0.72px;
+    font-stretch: normal;
+    font-style: normal;
+}
+
+@mixin montserratExtraBold24 {
+    font-family: var(--supr-font-family-montserrat) !important;
+    font-size: var(--supr-font-size-medium-large);
+    font-weight: var(--supr-weight-extra-bold);
+    line-height: 1.04;
+    letter-spacing: 0.72px;
+    font-stretch: normal;
+    font-style: normal;
+}
+
+@mixin montserratBold14 {
+    font-family: var(--supr-font-family-montserrat) !important;
+    font-size: var(--supr-font-size-regular);
+    font-weight: var(--supr-weight-bold);
+    line-height: 1.4;
+    letter-spacing: 0.8px;
+    font-stretch: normal;
+    font-style: normal;
+}
+
+@mixin montserratBold16 {
+    font-family: var(--supr-font-family-montserrat) !important;
+    font-size: var(--supr-font-size-medium);
+    font-weight: var(--supr-weight-bold);
+    line-height: 1;
+    letter-spacing: 0.8px;
+    font-stretch: normal;
+    font-style: normal;
+}
+
+@mixin montserratBold20 {
+    font-family: var(--supr-font-family-montserrat) !important;
+    font-size: var(--supr-font-size-large);
+    font-weight: var(--supr-weight-bold);
+    line-height: 1.04;
+    letter-spacing: 0.72px;
+    font-stretch: normal;
+    font-style: normal;
+}
+
+@mixin montserratBold24 {
+    font-family: var(--supr-font-family-montserrat) !important;
+    font-size: var(--supr-font-size-medium-large);
+    font-weight: var(--supr-weight-bold);
+    line-height: 1.04;
+    letter-spacing: 0.72px;
+    font-stretch: normal;
+    font-style: normal;
+}

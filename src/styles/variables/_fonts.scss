@@ -1,0 +1,20 @@
+:root {
+    // Font family
+    --supr-font-family: "Cabin", Arial, "Helvetica Neue", sans-serif;
+    --supr-icon-font-family: "Supr-Icon-Font";
+    --supr-font-family-montserrat: "Montserrat";
+}
+
+// Font Family Definitions
+$supr-fonts-path: "assets/fonts/" !default;
+
+$supr-font-family-base: "Cabin";
+$supr-font-family-regular: "Cabin-Regular";
+$supr-font-family-bold: "Cabin-Bold";
+$supr-font-family-semibold: "Cabin-SemiBold";
+
+$supr-font-family-montserrat-base: "Montserrat";
+$supr-font-family-montserrat-bold: "Montserrat-Bold";
+$supr-font-family-montserrat-extrabold: "Montserrat-ExtraBold";
+
+$supr-icon-font-family: "Supr-Icon-Font";

@@ -1,0 +1,334 @@
+@import "supr-base";
+
+//Icon Definitions
+
+.supr-icon-clock {
+    &:before {
+        content: var(--supr-icon-clock);
+    }
+}
+.supr-icon-share {
+    &:before {
+        content: var(--supr-icon-share);
+    }
+}
+.supr-icon-copy-code {
+    &:before {
+        content: var(--supr-icon-copy-code);
+    }
+}
+.supr-icon-offers-hexagon {
+    &:before {
+        content: var(--supr-icon-offers-hexagon);
+    }
+}
+.supr-icon-star-outline {
+    &:before {
+        content: var(--supr-icon-star-outline);
+    }
+}
+.supr-icon-bell-2 {
+    &:before {
+        content: var(--supr-icon-bell-2);
+    }
+}
+.supr-icon-add-circle {
+    &:before {
+        content: var(--supr-icon-add-circle);
+    }
+}
+.supr-icon-whatsapp {
+    &:before {
+        content: var(--supr-icon-whatsapp);
+    }
+}
+.supr-icon-apartment {
+    &:before {
+        content: var(--supr-icon-apartment);
+    }
+}
+.supr-icon-bell {
+    &:before {
+        content: var(--supr-icon-bell);
+    }
+}
+.supr-icon-add {
+    &:before {
+        content: var(--supr-icon-add);
+    }
+}
+.supr-icon-approve {
+    &:before {
+        content: var(--supr-icon-approve);
+    }
+}
+.supr-icon-approve-filled {
+    &:before {
+        content: var(--supr-icon-approve-filled);
+    }
+}
+.supr-icon-pause-filled {
+    &:before {
+        content: var(--supr-icon-pause-filled);
+    }
+}
+.supr-icon-arrow-down {
+    &:before {
+        content: var(--supr-icon-arrow-down);
+    }
+}
+.supr-icon-arrow-left {
+    &:before {
+        content: var(--supr-icon-arrow-left);
+    }
+}
+.supr-icon-arrow-right {
+    &:before {
+        content: var(--supr-icon-arrow-right);
+    }
+}
+.supr-icon-arrow-up {
+    &:before {
+        content: var(--supr-icon-arrow-up);
+    }
+}
+.supr-icon-bag-cart {
+    &:before {
+        content: var(--supr-icon-bag-cart);
+    }
+}
+.supr-icon-bill {
+    &:before {
+        content: var(--supr-icon-bill);
+    }
+}
+.supr-icon-calendar {
+    &:before {
+        content: var(--supr-icon-calendar);
+    }
+}
+.supr-icon-card {
+    &:before {
+        content: var(--supr-icon-card);
+    }
+}
+.supr-icon-chevron-down {
+    &:before {
+        content: var(--supr-icon-chevron-down);
+    }
+}
+.supr-icon-chevron-left {
+    &:before {
+        content: var(--supr-icon-chevron-left);
+    }
+}
+.supr-icon-chevron-right {
+    &:before {
+        content: var(--supr-icon-chevron-right);
+    }
+}
+.supr-icon-chevron-up {
+    &:before {
+        content: var(--supr-icon-chevron-up);
+    }
+}
+.supr-icon-comment-info {
+    &:before {
+        content: var(--supr-icon-comment-info);
+    }
+}
+.supr-icon-cross {
+    &:before {
+        content: var(--supr-icon-cross);
+    }
+}
+.supr-icon-delivery {
+    &:before {
+        content: var(--supr-icon-delivery);
+    }
+}
+.supr-icon-drop-down {
+    &:before {
+        content: var(--supr-icon-drop-down);
+    }
+}
+.supr-icon-drop-up {
+    &:before {
+        content: var(--supr-icon-drop-up);
+    }
+}
+.supr-icon-edit {
+    &:before {
+        content: var(--supr-icon-edit);
+    }
+}
+.supr-icon-error-octagon {
+    &:before {
+        content: var(--supr-icon-error-octagon);
+    }
+}
+.supr-icon-error-triangle {
+    &:before {
+        content: var(--supr-icon-error-triangle);
+    }
+}
+.supr-icon-error {
+    &:before {
+        content: var(--supr-icon-error);
+    }
+}
+.supr-icon-gps {
+    &:before {
+        content: var(--supr-icon-gps);
+    }
+}
+.supr-icon-cart {
+    &:before {
+        content: var(--supr-icon-cart);
+    }
+}
+.supr-icon-offer {
+    &:before {
+        content: var(--supr-icon-offer);
+    }
+}
+.supr-icon-unchecked {
+    &:before {
+        content: var(--supr-icon-unchecked);
+    }
+}
+.supr-icon-receipt {
+    &:before {
+        content: var(--supr-icon-receipt);
+    }
+}
+.supr-icon-menu {
+    &:before {
+        content: var(--supr-icon-menu);
+    }
+}
+.supr-icon-repeat {
+    &:before {
+        content: var(--supr-icon-repeat);
+    }
+}
+.supr-icon-search {
+    &:before {
+        content: var(--supr-icon-search);
+    }
+}
+.supr-icon-location {
+    &:before {
+        content: var(--supr-icon-location);
+    }
+}
+.supr-icon-lock {
+    &:before {
+        content: var(--supr-icon-lock);
+    }
+}
+.supr-icon-phone-slash {
+    &:before {
+        content: var(--supr-icon-phone-slash);
+    }
+}
+.supr-icon-logout {
+    &:before {
+        content: var(--supr-icon-logout);
+    }
+}
+.supr-icon-no-bell {
+    &:before {
+        content: var(--supr-icon-no-bell);
+    }
+}
+.supr-icon-pause {
+    &:before {
+        content: var(--supr-icon-pause);
+    }
+}
+.supr-icon-headphones {
+    &:before {
+        content: var(--supr-icon-headphones);
+    }
+}
+.supr-icon-logo {
+    &:before {
+        content: var(--supr-icon-logo);
+    }
+}
+.supr-icon-profile {
+    &:before {
+        content: var(--supr-icon-profile);
+    }
+}
+.supr-icon-question {
+    &:before {
+        content: var(--supr-icon-question);
+    }
+}
+.supr-icon-refresh {
+    &:before {
+        content: var(--supr-icon-refresh);
+    }
+}
+.supr-icon-settings {
+    &:before {
+        content: var(--supr-icon-settings);
+    }
+}
+.supr-icon-skip {
+    &:before {
+        content: var(--supr-icon-skip);
+    }
+}
+.supr-icon-stop-watch {
+    &:before {
+        content: var(--supr-icon-stop-watch);
+    }
+}
+.supr-icon-subscription {
+    &:before {
+        content: var(--supr-icon-subscription);
+    }
+}
+.supr-icon-subtract {
+    &:before {
+        content: var(--supr-icon-subtract);
+    }
+}
+.supr-icon-wallet {
+    &:before {
+        content: var(--supr-icon-wallet);
+    }
+}
+.supr-icon-delete {
+    &:before {
+        content: var(--supr-icon-delete);
+    }
+}
+.supr-icon-comment {
+    &:before {
+        content: var(--supr-icon-comment);
+    }
+}
+.supr-icon-comment-slash {
+    &:before {
+        content: var(--supr-icon-comment-slash);
+    }
+}
+.supr-icon-recharge-sub {
+    &:before {
+        content: var(--supr-icon-recharge-sub);
+    }
+}
+.supr-icon-logo-without-text {
+    &:before {
+        content: var(--supr-icon-logo-without-text);
+    }
+}
+.supr-icon-tick {
+    &:before {
+        content: var(--supr-icon-tick);
+    }
+}

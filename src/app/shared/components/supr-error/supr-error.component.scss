@@ -1,0 +1,33 @@
+@import "supr-base";
+
+:host {
+    --supr-error-icon-color: var(--alert-100);
+    --supr-error-icon-size: 20px;
+
+    .container {
+        padding: var(--supr-content-vertical-padding) var(--supr-content-horizontal-padding);
+    }
+
+    supr-icon {
+        --supr-icon-color: var(--supr-error-icon-color);
+        --supr-icon-font-size: var(--supr-error-icon-size);
+
+        margin-right: 10px;
+    }
+
+    supr-text {
+        --supr-text-wrap: normal;
+
+        &.subtitle {
+            --supr-text-color: var(--black-40);
+        }
+    }
+
+    supr-button {
+        --supr-button-width: 100%;
+
+        supr-text {
+            --supr-text-color: var(--white-100);
+        }
+    }
+}

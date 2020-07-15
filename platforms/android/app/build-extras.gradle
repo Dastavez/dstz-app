@@ -1,0 +1,4 @@
+dependencies {
+  implementation "com.moengage:moe-android-sdk:9.8.00"
+  implementation "com.google.firebase:firebase-messaging:20.1.0"
+}

@@ -1,0 +1,177 @@
+@import "supr-base";
+
+:host {
+    --supr-input-padding: 0;
+    --supr-input-font-size: var(--supr-font-size-regular);
+    --supr-input-font-weight: normal;
+    --supr-input-color: var(--black-100);
+    --supr-input-color-disabled: var(--black-40);
+    --supr-input-placeholder-color: var(--black-20);
+    --supr-input-placeholder-opacity: 1;
+    --supr-input-letter-spacing: normal;
+    --supr-input-placeholder-letter-spacing: normal;
+    --supr-input-line-height: inherit;
+    --supr-input-width: 100%;
+    --supr-input-height: 100%;
+    --supr-text-transform: none;
+
+    .supr-input {
+        padding: var(--supr-input-padding);
+        font-size: var(--supr-input-font-size);
+        font-weight: var(--supr-input-font-weight);
+        color: var(--supr-input-color);
+        width: var(--supr-input-width);
+        height: var(--supr-input-height);
+        text-transform: var(--supr-text-transform);
+        letter-spacing: var(--supr-input-letter-spacing);
+        line-height: var(--supr-input-line-height);
+
+        &::placeholder {
+            @include input-placeholder;
+
+            font-size: var(--supr-input-font-size);
+            text-transform: var(--supr-text-transform);
+            letter-spacing: var(--supr-input-placeholder-letter-spacing);
+            line-height: var(--supr-input-line-height);
+        }
+
+        &::-webkit-input-placeholder {
+            @include input-placeholder;
+
+            font-size: var(--supr-input-font-size);
+            text-transform: var(--supr-text-transform);
+            letter-spacing: var(--supr-input-placeholder-letter-spacing);
+            line-height: var(--supr-input-line-height);
+        }
+
+        &:disabled {
+            color: var(--supr-input-color-disabled);
+        }
+
+        &.title {
+            @include title();
+
+            &::placeholder {
+                @include input-placeholder;
+                @include title();
+            }
+
+            &::-webkit-input-placeholder {
+                @include input-placeholder;
+                @include title();
+            }
+        }
+
+        &.subtitle {
+            @include subtitle();
+
+            &::placeholder {
+                @include input-placeholder;
+                @include subtitle();
+            }
+
+            &::-webkit-input-placeholder {
+                @include input-placeholder;
+                @include subtitle();
+            }
+        }
+
+        &.heading {
+            @include heading();
+
+            &::placeholder {
+                @include input-placeholder;
+                @include heading();
+            }
+
+            &::-webkit-input-placeholder {
+                @include input-placeholder;
+                @include heading();
+            }
+        }
+
+        &.subheading {
+            @include subheading();
+
+            &::placeholder {
+                @include input-placeholder;
+                @include subheading();
+            }
+
+            &::-webkit-input-placeholder {
+                @include input-placeholder;
+                @include subheading();
+            }
+        }
+
+        &.paragraph {
+            @include paragraph();
+
+            &::placeholder {
+                @include input-placeholder;
+                @include paragraph();
+            }
+
+            &::-webkit-input-placeholder {
+                @include input-placeholder;
+                @include paragraph();
+            }
+        }
+
+        &.caption {
+            @include caption();
+
+            &::placeholder {
+                @include input-placeholder;
+                @include caption();
+            }
+
+            &::-webkit-input-placeholder {
+                @include input-placeholder;
+                @include caption();
+            }
+        }
+
+        &.action14 {
+            @include action14();
+
+            &::placeholder {
+                @include input-placeholder;
+                @include action14();
+            }
+
+            &::-webkit-input-placeholder {
+                @include input-placeholder;
+                @include action14();
+            }
+        }
+
+        &.body {
+            @include body();
+
+            &::placeholder {
+                @include input-placeholder;
+                @include body();
+            }
+
+            &::-webkit-input-placeholder {
+                @include input-placeholder;
+                @include body();
+            }
+        }
+
+        &.subtext10 {
+            @include subtext10();
+
+            &::placeholder {
+                @include input-placeholder;
+                @include subtext10();
+            }
+
+            &::-webkit-input-placeholder {
+                @include input-placeholder;
+                @include subtext10();
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+@import "supr-base";
+
+:host {
+    --supr-loader-color: var(--white-100);
+
+    ion-spinner {
+        --color: var(--supr-loader-color);
+
+        width: var(--supr-loader-width, 28px);
+        height: var(--supr-loader-height, 28px);
+    }
+}

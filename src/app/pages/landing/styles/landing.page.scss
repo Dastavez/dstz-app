@@ -1,0 +1,45 @@
+@import "supr-base";
+
+:host {
+    .suprScrollContent {
+        padding: var(--supr-content-vertical-padding) var(--supr-content-horizontal-padding);
+    }
+
+    supr-loader {
+        --supr-loader-color: var(--primary-100);
+        --supr-loader-width: 200px;
+        --supr-loader-height: 40px;
+    }
+
+    .error {
+        supr-svg {
+            --supr-svg-path: var(--supr-svg-error-oops-url);
+            --supr-svg-width: 96px;
+            --supr-svg-height: 104px;
+
+            &.internet {
+                --supr-svg-path: var(--supr-svg-error-no-internet-url);
+            }
+        }
+
+        supr-text {
+            --supr-text-wrap: normal;
+            --supr-text-align: center;
+            --supr-text-color: var(--primary-100);
+
+            &.subtitle {
+                --supr-text-color: var(--black-40);
+                --supr-text-line-height: 20px;
+                --supr-text-letter-spacing: normal;
+            }
+        }
+
+        supr-button {
+            --supr-button-width: 200px;
+
+            supr-text {
+                --supr-text-color: var(--white-100);
+            }
+        }
+    }
+}

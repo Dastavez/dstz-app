@@ -1,0 +1,895 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "app/src/main/AndroidManifest.xml": {
+        "parents": {
+          "/manifest/application": [
+            {
+              "xml": "<application android:networkSecurityConfig=\"@xml/network_security_config\" />",
+              "count": 2,
+              "mode": "merge",
+              "id": "config.xml",
+              "oldAttrib": {
+                "android:hardwareAccelerated": "true",
+                "android:icon": "@mipmap/ic_launcher",
+                "android:label": "@string/app_name",
+                "android:networkSecurityConfig": "@xml/network_security_config",
+                "android:supportsRtl": "true",
+                "android:fullBackupContent": "@xml/backup_descriptor",
+                "android:name": ".SuprDailyApplication"
+              }
+            }
+          ],
+          "/manifest": [
+            {
+              "xml": "<uses-permission android:name=\"android.permission.INTERNET\" />",
+              "count": 1
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "res/xml/config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"InAppBrowser\"><param name=\"android-package\" value=\"org.apache.cordova.inappbrowser.InAppBrowser\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"NativeSettings\"><param name=\"android-package\" value=\"com.phonegap.plugins.nativesettings.NativeSettings\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"Checkout\"><param name=\"android-package\" value=\"com.razorpay.cordova.Main\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"freshchatPlugin\"><param name=\"android-package\" value=\"com.freshdesk.freshchat.android.freshchatPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"StatusBar\"><param name=\"android-package\" value=\"org.apache.cordova.statusbar.StatusBar\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"SplashScreen\"><param name=\"android-package\" value=\"org.apache.cordova.splashscreen.SplashScreen\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"CallNumber\"><param name=\"android-package\" value=\"com.rohithvaranasi.callnumber.CFCallNumber\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"SQLitePlugin\"><param name=\"android-package\" value=\"io.sqlc.SQLitePlugin\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"Geolocation\"><param name=\"android-package\" value=\"org.apache.cordova.geolocation.Geolocation\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"Device\"><param name=\"android-package\" value=\"org.apache.cordova.device.Device\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"AndroidSmsRetriever\"><param name=\"android-package\" value=\"com.codingsans.ionic.smsRetriever.AndroidSmsRetriever\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"Idfa\"><param name=\"android-package\" value=\"by.chemerisuk.cordova.advertising.IdfaPlugin\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"FirebasePlugin\"><param name=\"android-package\" value=\"org.apache.cordova.firebase.FirebasePlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"UniqueDeviceID\"><param name=\"android-package\" value=\"hu.dpal.phonegap.plugins.UniqueDeviceID\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"AppsFlyerPlugin\"><param name=\"android-package\" value=\"com.appsflyer.cordova.plugin.AppsFlyerPlugin\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"LaunchReview\"><param name=\"android-package\" value=\"uk.co.workingedge.phonegap.plugin.LaunchReview\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"NetworkStatus\"><param name=\"android-package\" value=\"org.apache.cordova.networkinformation.NetworkManager\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"AppAvailability\"><param name=\"android-package\" value=\"com.ohh2ahh.appavailability.AppAvailability\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"SocialSharing\"><param name=\"android-package\" value=\"nl.xservices.plugins.SocialSharing\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"IonicDeeplinkPlugin\"><param name=\"android-package\" value=\"io.ionic.links.IonicDeeplink\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"Clipboard\"><param name=\"android-package\" value=\"com.verso.cordova.clipboard.Clipboard\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"MoEngage\"><param name=\"android-package\" value=\"com.moengage.cordova.MoECordova\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"RequestLocationAccuracy\"><param name=\"android-package\" value=\"cordova.plugin.RequestLocationAccuracy\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"Diagnostic\"><param name=\"android-package\" value=\"cordova.plugins.Diagnostic\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"Diagnostic_Location\"><param name=\"android-package\" value=\"cordova.plugins.Diagnostic_Location\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"Diagnostic_Bluetooth\"><param name=\"android-package\" value=\"cordova.plugins.Diagnostic_Bluetooth\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"Diagnostic_Wifi\"><param name=\"android-package\" value=\"cordova.plugins.Diagnostic_Wifi\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"Diagnostic_Camera\"><param name=\"android-package\" value=\"cordova.plugins.Diagnostic_Camera\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"Diagnostic_Notifications\"><param name=\"android-package\" value=\"cordova.plugins.Diagnostic_Notifications\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"Diagnostic_NFC\"><param name=\"android-package\" value=\"cordova.plugins.Diagnostic_NFC\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"Diagnostic_External_Storage\"><param name=\"android-package\" value=\"cordova.plugins.Diagnostic_External_Storage\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<allow-navigation href=\"http://localhost/*\" />",
+              "count": 1
+            },
+            {
+              "xml": "<allow-navigation href=\"https://localhost/*\" />",
+              "count": 1
+            },
+            {
+              "xml": "<allow-navigation href=\"ionic://*\" />",
+              "count": 1
+            },
+            {
+              "xml": "<preference name=\"webView\" value=\"com.ionicframework.cordova.webview.IonicWebViewEngine\" />",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"IonicWebView\"><param name=\"android-package\" value=\"com.ionicframework.cordova.webview.IonicWebView\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"CDVIonicKeyboard\"><param name=\"android-package\" onload=\"true\" value=\"io.ionic.keyboard.CDVIonicKeyboard\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"IonicCordovaCommon\"><param name=\"android-package\" onload=\"true\" value=\"com.ionicframework.common.IonicCordovaCommon\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<preference name=\"DisableDeploy\" value=\"false\" />",
+              "count": 1
+            },
+            {
+              "xml": "<preference name=\"AutoHideSplashScreen\" value=\"false\" />",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "AndroidManifest.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<uses-permission android:name=\"android.permission.BLUETOOTH\" />",
+              "count": 1
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.CALL_PHONE\" />",
+              "count": 1
+            },
+            {
+              "xml": "<uses-feature android:name=\"android.hardware.telephony\" android:required=\"false\" />",
+              "count": 1
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\" />",
+              "count": 1
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />",
+              "count": 1
+            },
+            {
+              "xml": "<uses-feature android:name=\"android.hardware.location.gps\" />",
+              "count": 1
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.INTERNET\" />",
+              "count": 2
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
+              "count": 3
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.WAKE_LOCK\" />",
+              "count": 1
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\" />",
+              "count": 1
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
+              "count": 1
+            }
+          ],
+          "/manifest": [
+            {
+              "xml": "<uses-permission android:name=\"com.supr.suprdaily.permission.C2D_MESSAGE\" />",
+              "count": 1
+            },
+            {
+              "xml": "<permission android:name=\"com.supr.suprdaily.permission.C2D_MESSAGE\" android:protectionLevel=\"signature\" />",
+              "count": 1
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.CAMERA\" android:required=\"false\" />",
+              "count": 1
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.VIBRATE\" />",
+              "count": 1
+            }
+          ],
+          "application": [
+            {
+              "xml": "<provider android:authorities=\"${applicationId}.provider\" android:exported=\"false\" android:grantUriPermissions=\"true\" android:name=\"com.techaffinity.phonegap.plugins.FileProvider\"><meta-data android:name=\"android.support.FILE_PROVIDER_PATHS\" android:resource=\"@xml/freshchat_phonegap_provider_paths\" /></provider>",
+              "count": 1
+            },
+            {
+              "xml": "<service android:enabled=\"true\" android:exported=\"false\" android:name=\"com.google.android.gms.measurement.AppMeasurementService\" />",
+              "count": 1
+            },
+            {
+              "xml": "<service android:name=\"org.apache.cordova.firebase.FirebasePluginMessagingService\"><intent-filter><action android:name=\"com.google.firebase.MESSAGING_EVENT\" /></intent-filter></service>",
+              "count": 1
+            },
+            {
+              "xml": "<receiver android:name=\"org.apache.cordova.firebase.OnNotificationOpenReceiver\" />",
+              "count": 1
+            },
+            {
+              "xml": "<meta-data android:name=\"com.google.firebase.messaging.default_notification_color\" android:resource=\"@color/accent\" />",
+              "count": 1
+            },
+            {
+              "xml": "<meta-data android:name=\"com.google.firebase.messaging.default_notification_channel_id\" android:value=\"@string/default_notification_channel_id\" />",
+              "count": 1
+            },
+            {
+              "xml": "<meta-data android:name=\"firebase_analytics_collection_enabled\" android:value=\"false\" />",
+              "count": 1
+            },
+            {
+              "xml": "<meta-data android:name=\"firebase_performance_collection_enabled\" android:value=\"false\" />",
+              "count": 1
+            },
+            {
+              "xml": "<meta-data android:name=\"firebase_crashlytics_collection_enabled\" android:value=\"true\" />",
+              "count": 1
+            }
+          ],
+          "/*/application": [
+            {
+              "xml": "<receiver android:enabled=\"true\" android:name=\"nl.xservices.plugins.ShareChooserPendingIntent\"><intent-filter><action android:name=\"android.intent.action.SEND\" /></intent-filter></receiver>",
+              "count": 1
+            }
+          ],
+          "/manifest/application": [
+            {
+              "xml": "<provider android:authorities=\"${applicationId}.sharing.provider\" android:exported=\"false\" android:grantUriPermissions=\"true\" android:name=\"nl.xservices.plugins.FileProvider\"><meta-data android:name=\"android.support.FILE_PROVIDER_PATHS\" android:resource=\"@xml/sharing_paths\" /></provider>",
+              "count": 1
+            }
+          ],
+          "/manifest/application/activity": [
+            {
+              "xml": "<intent-filter><action android:name=\"android.intent.action.VIEW\" /><category android:name=\"android.intent.category.DEFAULT\" /><category android:name=\"android.intent.category.BROWSABLE\" /><data android:scheme=\"suprapp\" /></intent-filter>",
+              "count": 1
+            },
+            {
+              "xml": "<intent-filter android:autoVerify=\"true\"><action android:name=\"android.intent.action.VIEW\" /><category android:name=\"android.intent.category.DEFAULT\" /><category android:name=\"android.intent.category.BROWSABLE\" /><data android:host=\"suprdaily.com\" android:pathPrefix=\"/\" android:scheme=\"https\" /><data android:host=\" \" android:pathPrefix=\"/\" android:scheme=\" \" /><data android:host=\" \" android:pathPrefix=\"/\" android:scheme=\" \" /><data android:host=\" \" android:pathPrefix=\"/\" android:scheme=\" \" /><data android:host=\" \" android:pathPrefix=\"/\" android:scheme=\" \" /></intent-filter>",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "res/values/strings.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<string name=\"freshchat_file_provider_authority\">com.supr.suprdaily.provider</string>",
+              "count": 1
+            }
+          ],
+          "/resources": [
+            {
+              "xml": "<string name=\"ionic_app_id\">3308640d</string>",
+              "count": 1
+            },
+            {
+              "xml": "<string name=\"ionic_channel_name\">Production</string>",
+              "count": 1
+            },
+            {
+              "xml": "<string name=\"ionic_update_api\">https://api.ionicjs.com</string>",
+              "count": 1
+            },
+            {
+              "xml": "<string name=\"ionic_update_method\">background</string>",
+              "count": 1
+            },
+            {
+              "xml": "<string name=\"ionic_max_versions\">2</string>",
+              "count": 1
+            },
+            {
+              "xml": "<string name=\"ionic_min_background_duration\">15</string>",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "res/values/colors.xml": {
+        "parents": {
+          "/resources": [
+            {
+              "xml": "<color name=\"accent\">#FF00FFFF</color>",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.supr.suprdaily"
+    },
+    "cordova-plugin-request-location-accuracy": {
+      "PLAY_SERVICES_LOCATION_VERSION": "16.+",
+      "PACKAGE_NAME": "com.supr.suprdaily"
+    },
+    "cordova-open-native-settings": {
+      "PACKAGE_NAME": "com.supr.suprdaily"
+    },
+    "cordova.plugins.diagnostic": {
+      "ANDROID_SUPPORT_VERSION": "28.+",
+      "PACKAGE_NAME": "com.supr.suprdaily"
+    },
+    "com.razorpay.cordova": {
+      "PACKAGE_NAME": "com.supr.suprdaily"
+    },
+    "cordova-plugin-freshchat": {
+      "PACKAGE_NAME": "com.supr.suprdaily"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.supr.suprdaily"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.supr.suprdaily"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.supr.suprdaily"
+    },
+    "cordova-plugin-ionic-webview": {
+      "ANDROID_SUPPORT_ANNOTATIONS_VERSION": "27.+",
+      "PACKAGE_NAME": "com.supr.suprdaily"
+    },
+    "cordova-plugin-ionic-keyboard": {
+      "PACKAGE_NAME": "com.supr.suprdaily"
+    },
+    "call-number": {
+      "PACKAGE_NAME": "com.supr.suprdaily"
+    },
+    "cordova-sqlite-storage": {
+      "PACKAGE_NAME": "com.supr.suprdaily"
+    },
+    "@ionic-enterprise/geolocation": {
+      "PACKAGE_NAME": "com.supr.suprdaily"
+    },
+    "@ionic-enterprise/device": {
+      "PACKAGE_NAME": "com.supr.suprdaily"
+    },
+    "cordova-plugin-sms-retriever-manager": {
+      "PLAY_SERVICES_VERSION": "15.0.1",
+      "PACKAGE_NAME": "com.supr.suprdaily"
+    },
+    "cordova-support-android-plugin": {
+      "PACKAGE_NAME": "com.supr.suprdaily"
+    },
+    "cordova-plugin-idfa": {
+      "PLAY_SERVICES_ADS_VERSION": "15.0.+",
+      "PACKAGE_NAME": "com.supr.suprdaily"
+    },
+    "cordova-plugin-androidx": {
+      "PACKAGE_NAME": "com.supr.suprdaily"
+    },
+    "cordova-plugin-androidx-adapter": {
+      "PACKAGE_NAME": "com.supr.suprdaily"
+    },
+    "cordova-plugin-firebasex": {
+      "FIREBASE_ANALYTICS_COLLECTION_ENABLED": "false",
+      "FIREBASE_PERFORMANCE_COLLECTION_ENABLED": "false",
+      "FIREBASE_CRASHLYTICS_COLLECTION_ENABLED": "true",
+      "ANDROID_ICON_ACCENT": "#FF00FFFF",
+      "ANDROID_PLAY_SERVICES_TAGMANAGER_VERSION": "17.0.0",
+      "ANDROID_FIREBASE_CORE_VERSION": "17.0.0",
+      "ANDROID_FIREBASE_MESSAGING_VERSION": "19.0.0",
+      "ANDROID_FIREBASE_CONFIG_VERSION": "18.0.0",
+      "ANDROID_FIREBASE_PERF_VERSION": "18.0.0",
+      "ANDROID_FIREBASE_AUTH_VERSION": "18.0.0",
+      "ANDROID_CRASHLYTICS_VERSION": "2.10.1",
+      "ANDROID_CRASHLYTICS_NDK_VERSION": "2.1.0",
+      "ANDROID_SHORTCUTBADGER_VERSION": "1.1.22",
+      "PACKAGE_NAME": "com.supr.suprdaily"
+    },
+    "cordova-plugin-ionic": {
+      "APP_ID": "3308640d",
+      "CHANNEL_NAME": "Production",
+      "UPDATE_API": "https://api.ionicjs.com",
+      "UPDATE_METHOD": "background",
+      "MAX_STORE": "2",
+      "MIN_BACKGROUND_DURATION": "15",
+      "PACKAGE_NAME": "com.supr.suprdaily"
+    },
+    "cordova-plugin-uniquedeviceid": {
+      "PACKAGE_NAME": "com.supr.suprdaily"
+    },
+    "cordova-plugin-appsflyer-sdk": {
+      "PACKAGE_NAME": "com.supr.suprdaily"
+    },
+    "cordova-launch-review": {
+      "PACKAGE_NAME": "com.supr.suprdaily"
+    },
+    "cordova-plugin-vibration": {
+      "PACKAGE_NAME": "com.supr.suprdaily"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.supr.suprdaily"
+    },
+    "cordova-plugin-appavailability": {
+      "PACKAGE_NAME": "com.supr.suprdaily"
+    },
+    "@ionic-enterprise/social-sharing": {
+      "ANDROID_SUPPORT_V4_VERSION": "24.1.1+",
+      "PACKAGE_NAME": "com.supr.suprdaily"
+    },
+    "@ionic-enterprise/deeplinks": {
+      "URL_SCHEME": "suprapp",
+      "DEEPLINK_SCHEME": "https",
+      "DEEPLINK_HOST": "suprdaily.com",
+      "ANDROID_PATH_PREFIX": "/",
+      "ANDROID_2_PATH_PREFIX": "/",
+      "ANDROID_3_PATH_PREFIX": "/",
+      "ANDROID_4_PATH_PREFIX": "/",
+      "ANDROID_5_PATH_PREFIX": "/",
+      "DEEPLINK_2_SCHEME": " ",
+      "DEEPLINK_2_HOST": " ",
+      "DEEPLINK_3_SCHEME": " ",
+      "DEEPLINK_3_HOST": " ",
+      "DEEPLINK_4_SCHEME": " ",
+      "DEEPLINK_4_HOST": " ",
+      "DEEPLINK_5_SCHEME": " ",
+      "DEEPLINK_5_HOST": " ",
+      "PACKAGE_NAME": "com.supr.suprdaily"
+    },
+    "@ionic-enterprise/clipboard": {
+      "PACKAGE_NAME": "com.supr.suprdaily"
+    },
+    "cordova-plugin-moengage": {
+      "APP_ID": "CWX5W9Z4D2393G4XAYM2NRWG",
+      "PACKAGE_NAME": "com.supr.suprdaily"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "id": "cordova-plugin-inappbrowser.inappbrowser",
+      "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
+      "pluginId": "cordova-plugin-inappbrowser",
+      "clobbers": [
+        "cordova.InAppBrowser.open",
+        "window.open"
+      ]
+    },
+    {
+      "id": "cordova-plugin-request-location-accuracy.RequestLocationAccuracy",
+      "file": "plugins/cordova-plugin-request-location-accuracy/www/android/RequestLocationAccuracy.js",
+      "pluginId": "cordova-plugin-request-location-accuracy",
+      "clobbers": [
+        "cordova.plugins.locationAccuracy"
+      ]
+    },
+    {
+      "id": "cordova-open-native-settings.Settings",
+      "file": "plugins/cordova-open-native-settings/www/settings.js",
+      "pluginId": "cordova-open-native-settings",
+      "clobbers": [
+        "cordova.plugins.settings"
+      ]
+    },
+    {
+      "id": "cordova.plugins.diagnostic.Diagnostic",
+      "file": "plugins/cordova.plugins.diagnostic/www/android/diagnostic.js",
+      "pluginId": "cordova.plugins.diagnostic",
+      "merges": [
+        "cordova.plugins.diagnostic"
+      ]
+    },
+    {
+      "id": "cordova.plugins.diagnostic.Diagnostic_Location",
+      "file": "plugins/cordova.plugins.diagnostic/www/android/diagnostic.location.js",
+      "pluginId": "cordova.plugins.diagnostic",
+      "merges": [
+        "cordova.plugins.diagnostic.location"
+      ]
+    },
+    {
+      "id": "cordova.plugins.diagnostic.Diagnostic_Bluetooth",
+      "file": "plugins/cordova.plugins.diagnostic/www/android/diagnostic.bluetooth.js",
+      "pluginId": "cordova.plugins.diagnostic",
+      "merges": [
+        "cordova.plugins.diagnostic.bluetooth"
+      ]
+    },
+    {
+      "id": "cordova.plugins.diagnostic.Diagnostic_Wifi",
+      "file": "plugins/cordova.plugins.diagnostic/www/android/diagnostic.wifi.js",
+      "pluginId": "cordova.plugins.diagnostic",
+      "merges": [
+        "cordova.plugins.diagnostic.wifi"
+      ]
+    },
+    {
+      "id": "cordova.plugins.diagnostic.Diagnostic_Camera",
+      "file": "plugins/cordova.plugins.diagnostic/www/android/diagnostic.camera.js",
+      "pluginId": "cordova.plugins.diagnostic",
+      "merges": [
+        "cordova.plugins.diagnostic.camera"
+      ]
+    },
+    {
+      "id": "cordova.plugins.diagnostic.Diagnostic_Notifications",
+      "file": "plugins/cordova.plugins.diagnostic/www/android/diagnostic.notifications.js",
+      "pluginId": "cordova.plugins.diagnostic",
+      "merges": [
+        "cordova.plugins.diagnostic.notifications"
+      ]
+    },
+    {
+      "id": "cordova.plugins.diagnostic.Diagnostic_Microphone",
+      "file": "plugins/cordova.plugins.diagnostic/www/android/diagnostic.microphone.js",
+      "pluginId": "cordova.plugins.diagnostic",
+      "merges": [
+        "cordova.plugins.diagnostic.microphone"
+      ]
+    },
+    {
+      "id": "cordova.plugins.diagnostic.Diagnostic_Contacts",
+      "file": "plugins/cordova.plugins.diagnostic/www/android/diagnostic.contacts.js",
+      "pluginId": "cordova.plugins.diagnostic",
+      "merges": [
+        "cordova.plugins.diagnostic.contacts"
+      ]
+    },
+    {
+      "id": "cordova.plugins.diagnostic.Diagnostic_Calendar",
+      "file": "plugins/cordova.plugins.diagnostic/www/android/diagnostic.calendar.js",
+      "pluginId": "cordova.plugins.diagnostic",
+      "merges": [
+        "cordova.plugins.diagnostic.calendar"
+      ]
+    },
+    {
+      "id": "cordova.plugins.diagnostic.Diagnostic_NFC",
+      "file": "plugins/cordova.plugins.diagnostic/www/android/diagnostic.nfc.js",
+      "pluginId": "cordova.plugins.diagnostic",
+      "merges": [
+        "cordova.plugins.diagnostic.nfc"
+      ]
+    },
+    {
+      "id": "cordova.plugins.diagnostic.Diagnostic_External_Storage",
+      "file": "plugins/cordova.plugins.diagnostic/www/android/diagnostic.external_storage.js",
+      "pluginId": "cordova.plugins.diagnostic",
+      "merges": [
+        "cordova.plugins.diagnostic.external_storage"
+      ]
+    },
+    {
+      "id": "com.razorpay.cordova.RazorpayCheckout",
+      "file": "plugins/com.razorpay.cordova/www/RazorpayCheckout.js",
+      "pluginId": "com.razorpay.cordova",
+      "clobbers": [
+        "RazorpayCheckout"
+      ]
+    },
+    {
+      "id": "cordova-plugin-freshchat.Freshchat",
+      "file": "plugins/cordova-plugin-freshchat/www/freshchat_plugin.js",
+      "pluginId": "cordova-plugin-freshchat",
+      "clobbers": [
+        "Freshchat"
+      ]
+    },
+    {
+      "id": "cordova-plugin-statusbar.statusbar",
+      "file": "plugins/cordova-plugin-statusbar/www/statusbar.js",
+      "pluginId": "cordova-plugin-statusbar",
+      "clobbers": [
+        "window.StatusBar"
+      ]
+    },
+    {
+      "id": "cordova-plugin-splashscreen.SplashScreen",
+      "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
+      "pluginId": "cordova-plugin-splashscreen",
+      "clobbers": [
+        "navigator.splashscreen"
+      ]
+    },
+    {
+      "id": "cordova-plugin-ionic-webview.IonicWebView",
+      "file": "plugins/cordova-plugin-ionic-webview/src/www/util.js",
+      "pluginId": "cordova-plugin-ionic-webview",
+      "clobbers": [
+        "Ionic.WebView"
+      ]
+    },
+    {
+      "id": "cordova-plugin-ionic-keyboard.keyboard",
+      "file": "plugins/cordova-plugin-ionic-keyboard/www/android/keyboard.js",
+      "pluginId": "cordova-plugin-ionic-keyboard",
+      "clobbers": [
+        "window.Keyboard"
+      ]
+    },
+    {
+      "id": "call-number.CallNumber",
+      "file": "plugins/call-number/www/CallNumber.js",
+      "pluginId": "call-number",
+      "clobbers": [
+        "call"
+      ]
+    },
+    {
+      "id": "cordova-sqlite-storage.SQLitePlugin",
+      "file": "plugins/cordova-sqlite-storage/www/SQLitePlugin.js",
+      "pluginId": "cordova-sqlite-storage",
+      "clobbers": [
+        "SQLitePlugin"
+      ]
+    },
+    {
+      "id": "@ionic-enterprise/geolocation.geolocation",
+      "file": "plugins/@ionic-enterprise/geolocation/www/android/geolocation.js",
+      "pluginId": "@ionic-enterprise/geolocation",
+      "clobbers": [
+        "navigator.geolocation"
+      ]
+    },
+    {
+      "id": "@ionic-enterprise/geolocation.PositionError",
+      "file": "plugins/@ionic-enterprise/geolocation/www/PositionError.js",
+      "pluginId": "@ionic-enterprise/geolocation",
+      "runs": true
+    },
+    {
+      "id": "@ionic-enterprise/device.device",
+      "file": "plugins/@ionic-enterprise/device/www/device.js",
+      "pluginId": "@ionic-enterprise/device",
+      "clobbers": [
+        "device"
+      ]
+    },
+    {
+      "id": "cordova-plugin-sms-retriever-manager.AndroidSmsRetriever",
+      "file": "plugins/cordova-plugin-sms-retriever-manager/www/smsRetriever.js",
+      "pluginId": "cordova-plugin-sms-retriever-manager",
+      "clobbers": [
+        "cordova.plugins.smsRetriever"
+      ]
+    },
+    {
+      "id": "cordova-plugin-idfa.Idfa",
+      "file": "plugins/cordova-plugin-idfa/www/Idfa.js",
+      "pluginId": "cordova-plugin-idfa",
+      "merges": [
+        "cordova.plugins.idfa"
+      ]
+    },
+    {
+      "id": "cordova-plugin-firebasex.FirebasePlugin",
+      "file": "plugins/cordova-plugin-firebasex/www/firebase.js",
+      "pluginId": "cordova-plugin-firebasex",
+      "clobbers": [
+        "FirebasePlugin"
+      ]
+    },
+    {
+      "id": "cordova-plugin-ionic.common",
+      "file": "plugins/cordova-plugin-ionic/dist/common.js",
+      "pluginId": "cordova-plugin-ionic",
+      "clobbers": [
+        "IonicCordova"
+      ]
+    },
+    {
+      "id": "cordova-plugin-ionic.guards",
+      "file": "plugins/cordova-plugin-ionic/dist/guards.js",
+      "pluginId": "cordova-plugin-ionic",
+      "runs": true
+    },
+    {
+      "id": "cordova-plugin-uniquedeviceid.UniqueDeviceID",
+      "file": "plugins/cordova-plugin-uniquedeviceid/www/uniqueid.js",
+      "pluginId": "cordova-plugin-uniquedeviceid",
+      "merges": [
+        "window.plugins.uniqueDeviceID"
+      ]
+    },
+    {
+      "id": "cordova-plugin-appsflyer-sdk.appsflyer",
+      "file": "plugins/cordova-plugin-appsflyer-sdk/www/appsflyer.js",
+      "pluginId": "cordova-plugin-appsflyer-sdk",
+      "clobbers": [
+        "window.plugins.appsFlyer"
+      ]
+    },
+    {
+      "id": "cordova-plugin-appsflyer-sdk.AppsFlyerError",
+      "file": "plugins/cordova-plugin-appsflyer-sdk/www/AppsFlyerError.js",
+      "pluginId": "cordova-plugin-appsflyer-sdk",
+      "clobbers": [
+        "AppsFlyerError"
+      ]
+    },
+    {
+      "id": "cordova-launch-review.LaunchReview",
+      "file": "plugins/cordova-launch-review/www/launchreview.js",
+      "pluginId": "cordova-launch-review",
+      "clobbers": [
+        "LaunchReview"
+      ]
+    },
+    {
+      "id": "cordova-plugin-network-information.network",
+      "file": "plugins/cordova-plugin-network-information/www/network.js",
+      "pluginId": "cordova-plugin-network-information",
+      "clobbers": [
+        "navigator.connection",
+        "navigator.network.connection"
+      ]
+    },
+    {
+      "id": "cordova-plugin-network-information.Connection",
+      "file": "plugins/cordova-plugin-network-information/www/Connection.js",
+      "pluginId": "cordova-plugin-network-information",
+      "clobbers": [
+        "Connection"
+      ]
+    },
+    {
+      "id": "cordova-plugin-appavailability.AppAvailability",
+      "file": "plugins/cordova-plugin-appavailability/www/AppAvailability.js",
+      "pluginId": "cordova-plugin-appavailability",
+      "clobbers": [
+        "appAvailability"
+      ]
+    },
+    {
+      "id": "@ionic-enterprise/social-sharing.SocialSharing",
+      "file": "plugins/@ionic-enterprise/social-sharing/www/SocialSharing.js",
+      "pluginId": "@ionic-enterprise/social-sharing",
+      "clobbers": [
+        "window.plugins.socialsharing"
+      ]
+    },
+    {
+      "id": "@ionic-enterprise/deeplinks.deeplink",
+      "file": "plugins/@ionic-enterprise/deeplinks/www/deeplink.js",
+      "pluginId": "@ionic-enterprise/deeplinks",
+      "clobbers": [
+        "IonicDeeplink"
+      ],
+      "runs": true
+    },
+    {
+      "id": "@ionic-enterprise/clipboard.Clipboard",
+      "file": "plugins/@ionic-enterprise/clipboard/www/clipboard.js",
+      "pluginId": "@ionic-enterprise/clipboard",
+      "clobbers": [
+        "cordova.plugins.clipboard"
+      ]
+    },
+    {
+      "id": "cordova-plugin-moengage.MoECordova",
+      "file": "plugins/cordova-plugin-moengage/www/MoECordova.js",
+      "pluginId": "cordova-plugin-moengage",
+      "clobbers": [
+        "MoECordova"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "cordova-plugin-inappbrowser": "3.0.0",
+    "cordova-plugin-request-location-accuracy": "2.3.0",
+    "cordova-open-native-settings": "1.5.2",
+    "cordova.plugins.diagnostic": "5.0.0",
+    "com.razorpay.cordova": "0.16.1",
+    "cordova-plugin-freshchat": "1.2.0",
+    "cordova-plugin-whitelist": "1.3.4",
+    "cordova-plugin-statusbar": "2.4.3",
+    "cordova-plugin-splashscreen": "5.0.3",
+    "cordova-plugin-ionic-webview": "4.1.1",
+    "cordova-plugin-ionic-keyboard": "2.2.0",
+    "call-number": "0.0.2",
+    "cordova-sqlite-storage": "3.3.0",
+    "@ionic-enterprise/geolocation": "4.0.1",
+    "@ionic-enterprise/device": "2.0.2",
+    "cordova-plugin-sms-retriever-manager": "0.0.2",
+    "cordova-support-android-plugin": "1.0.1",
+    "cordova-plugin-idfa": "1.1.0",
+    "cordova-plugin-androidx": "1.0.2",
+    "cordova-plugin-androidx-adapter": "1.1.0",
+    "cordova-plugin-firebasex": "6.1.0",
+    "cordova-plugin-ionic": "5.4.5",
+    "cordova-plugin-uniquedeviceid": "1.3.2",
+    "cordova-plugin-appsflyer-sdk": "4.4.22",
+    "cordova-launch-review": "3.1.1",
+    "cordova-plugin-vibration": "3.1.1",
+    "cordova-plugin-network-information": "2.0.2",
+    "cordova-plugin-appavailability": "0.4.2",
+    "@ionic-enterprise/social-sharing": "5.6.6",
+    "@ionic-enterprise/deeplinks": "1.0.23",
+    "@ionic-enterprise/clipboard": "1.3.2",
+    "cordova-plugin-moengage": "5.0.1"
+  }
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Dastavez V1</title>
+
+        <base href="/" />
+
+        <meta
+            name="viewport"
+            content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+
+        <link
+            rel="icon"
+            type="image/png"
+            href="assets/images/favicons/favicon.png"
+        />
+
+        <!-- add to homescreen for ios -->
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    </head>
+
+    <body>
+        <dstz-root></dstz-root>
+
+        <script
+            async
+            defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDrbb0P5E9INfPvF7gdqqtqmWk0cPTfwQ"
+        ></script>
+        <style>
+            #google_map {
+                height: 1200px;
+                width: 1600px;
+            }
+            .gm-style-iw * {
+                display: block;
+                width: 100%;
+            }
+            .gm-style .gm-style-iw {
+                max-width: 230px !important;
+            }
+            .gm-style-iw h4,
+            .gm-style-iw p {
+                margin: 0;
+                padding: 0;
+            }
+            .gm-style-iw a {
+                color: #4272db;
+            }
+        </style>
+    </body>
+</html>

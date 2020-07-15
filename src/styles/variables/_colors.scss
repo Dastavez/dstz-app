@@ -1,0 +1,82 @@
+:root {
+    --white-100: #ffffff;
+    --white-90: rgba(255, 255, 255, 0.9);
+    --white-80: rgba(255, 255, 255, 0.8);
+    --white-70: rgba(255, 255, 255, 0.7);
+    --white-60: rgba(255, 255, 255, 0.6);
+    --white-50: rgba(255, 255, 255, 0.5);
+    --white-40: rgba(255, 255, 255, 0.4);
+    --white-30: rgba(255, 255, 255, 0.3);
+    --white-20: rgba(255, 255, 255, 0.2);
+    --white-15: rgba(255, 255, 255, 0.15);
+
+    --black-100: #000000;
+    --black-90: rgba(0, 0, 0, 0.9);
+    --black-80: rgba(0, 0, 0, 0.8);
+    --black-70: rgba(0, 0, 0, 0.7);
+    --black-60: rgba(0, 0, 0, 0.6);
+    --black-50: rgba(0, 0, 0, 0.5);
+    --black-40: rgba(0, 0, 0, 0.4);
+    --black-30: rgba(0, 0, 0, 0.3);
+    --black-20: rgba(0, 0, 0, 0.2);
+    --black-15: rgba(0, 0, 0, 0.15);
+    --black-10: rgba(0, 0, 0, 0.1);
+    --black-5: rgba(0, 0, 0, 0.05);
+    --black-3: rgba(0, 0, 0, 0.03);
+    --black-1: #f9f9f9;
+
+    --grey-1: #333333;
+    --grey-2: #4f4f4f;
+    --supr-grey: #f1f6f5;
+    --grey-3: rgba(130, 130, 130, 1);
+    --grey-100: #f1f6f5;
+
+    --primary-140: #388782;
+    --primary-120: #409a95;
+    --primary-100: #50c1ba;
+    --primary-60: #8fd2ce;
+    --primary-50: #abe1de;
+    --primary-25: rgba(80, 193, 186, 0.25);
+    --primary-20: #dcf3f1;
+    --primary-10: rgba(80, 193, 186, 0.1);
+    --primary-5: rgba(80, 193, 186, 0.05);
+
+    --success-120: #559b47;
+    --success-100: #6ac259;
+    --success-10: #eef8ec;
+
+    --caution-100: #bc321f;
+    --caution-60: rgba(188, 50, 31, 0.6);
+    --caution-10: rgba(188, 50, 31, 0.1);
+
+    --delight-100: #f2bc18;
+    --delight-10: #fcf2d1;
+    --delight-12: rgba(242, 188, 24, 0.12);
+
+    --alert-120: #c27113;
+    --alert-100: #f28d18;
+    --alert-75: rgba(242, 141, 24, 0.75);
+    --alert-50: rgba(242, 141, 24, 0.5);
+    --alert-20: #fce8d1;
+    --alert-10: #fef3e7;
+    --alert-5: rgba(242, 141, 24, 0.05);
+
+    --very-light-pink: #fff8f7;
+    --pale: #fffaf1;
+
+    --lime-160: #4c561d;
+    --lime-150: #849920;
+    --lime-110: #abc241;
+    --lime-100: #bed748;
+    --lime-10: #f9fbed;
+    --lime-20: #e7f0bd;
+
+    --red-10: #fdf5ec;
+
+    --beige: #fef4e8;
+
+    --brown-4: #a86c24;
+
+    --salmon-80: #ee917c;
+    --salmon-100: #ea755b;
+}

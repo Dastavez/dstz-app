@@ -1,0 +1,64 @@
+@mixin text-overflow {
+    --supr-text-text-overflow: ellipsis;
+    --supr-text-overflow: hidden;
+    --supr-text-wrap: nowrap;
+}
+
+@mixin input-placeholder {
+    color: var(--supr-input-placeholder-color) !important;
+    font-family: var(--supr-font-family) !important;
+    text-transform: none !important;
+    font-size: var(--supr-input-font-size);
+    opacity: var(--supr-input-placeholder-opacity);
+}
+
+@mixin image-blend() {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(40, 44, 63, 0.05);
+    content: "";
+    background-blend-mode: overlay;
+}
+
+@mixin rupee {
+    &:before {
+        content: "\20b9";
+        margin-right: 0.1rem;
+    }
+}
+
+@mixin button($color: var(--black-100)) {
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    box-sizing: border-box;
+    line-height: var(--supr-button-height);
+    font-size: var(--supr-font-size-regular);
+    font-weight: var(--supr-weight-semi-bold);
+    height: var(--supr-button-height);
+    padding: var(--supr-button-padding);
+    color: $color;
+    letter-spacing: 0;
+}
+
+@mixin break-word {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+@mixin divider($height: 0) {
+    display: block;
+    width: 100%;
+    height: $height;
+}
+
+@mixin spacer($width: 0) {
+    display: block;
+    height: 100%;
+    width: $width;
+}

@@ -1,0 +1,135 @@
+@import "supr-base";
+
+.mobile-chat-container {
+    display: none;
+}
+.chat-container {
+    --box-shadow: 2px 1px 5px 0 var(--black-20);
+    --white-space: normal;
+    --font-size: var(--supr-font-size-regular);
+    background-color: var(--white-100);
+    top: 0 !important;
+
+    .joe-radio-list-btn div {
+        text-align: center;
+        margin: 4px 0 !important;
+        padding: 12px 20px;
+        border: 1px solid #50c1ba;
+        box-shadow: none;
+        border-radius: 34px;
+        white-space: normal;
+        width: fit-content !important;
+
+        // remove width and margin from remote
+    }
+
+    .joe-quickReplyList {
+        color: var(--primary-100) !important;
+        white-space: var(--white-space);
+        background: var(--white-100) !important;
+        width: 100%;
+        font-size: var(--font-size) !important;
+        border: 1px solid #50c1ba !important;
+        display: block;
+        margin: 8px;
+    }
+
+    .joe-radio-list-btn {
+        box-shadow: var(--box-shadow);
+        white-space: var(--white-space);
+        background: var(--white-100);
+        margin: 20px 0;
+        padding: 10px 10px;
+        max-width: 100% !important;
+        direction: rtl;
+    }
+
+    .joe-slider-card-title {
+        white-space: var(--white-space);
+    }
+
+    .joe-send-btn {
+        display: block;
+        cursor: pointer !important;
+        right: 0;
+        top: 24px;
+        width: 40px;
+        height: 40px;
+        background-size: 40px 40px;
+    }
+
+    .joe-file-btn {
+        float: left;
+    }
+
+    // new code
+
+    .chat-head {
+        background-color: var(--white-100) !important;
+        border-bottom: 1px solid var(--black-10);
+    }
+
+    .chat-header,
+    .joe-faq-header {
+        background-image: none !important;
+        .title-chat {
+            color: var(--black-100) !important;
+            white-space: normal;
+        }
+    }
+
+    .chat-history .other-message {
+        border: 1px solid rgba(0, 0, 0, 0.05) !important;
+        color: var(--black-100) !important;
+        background-color: var(--white-100) !important;
+        border-radius: 12px !important;
+    }
+
+    .chat-history .joe-message-group li:last-of-type .other-message {
+        border-radius: 12px !important;
+    }
+
+    .chat-history .my-message {
+        border-radius: 12px !important;
+        background-color: var(--black-5) !important;
+        margin-bottom: 8px;
+        box-shadow: none !important;
+    }
+
+    .chat-history .joe-message-group li:first-of-type .my-message {
+        border-radius: 12px !important;
+    }
+
+    label {
+        color: var(--primary-100) !important;
+    }
+
+    .text-box-wrp {
+        box-shadow: none !important;
+        border: none !important;
+
+        input {
+            border: 1px solid #000000 !important;
+            border-radius: 12px !important;
+        }
+    }
+
+    .chat-history .my-message .multi-message {
+        padding: 0;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    .joe-send-btn {
+        background-image: url("https://suprdaily.s3-ap-southeast-1.amazonaws.com/media/ui_images/send_btn.svg") !important;
+    }
+
+    .chat-history .joe-message {
+        padding: 10px !important;
+        margin-bottom: 8px;
+    }
+
+    .joe-faq-body div {
+        white-space: normal;
+    }
+}

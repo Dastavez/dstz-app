@@ -1,0 +1,37 @@
+@import "supr-base";
+
+//Definitions
+@font-face {
+    font-family: $supr-font-family-base;
+    font-weight: 700;
+    src: url("#{$supr-fonts-path}#{$supr-font-family-bold}.ttf")
+        format("truetype");
+}
+
+@font-face {
+    font-family: $supr-font-family-base;
+    font-weight: 600;
+    src: url("#{$supr-fonts-path}#{$supr-font-family-semibold}.ttf")
+        format("truetype");
+}
+
+@font-face {
+    font-family: $supr-font-family-base;
+    font-weight: 400;
+    src: url("#{$supr-fonts-path}#{$supr-font-family-regular}.ttf")
+        format("truetype");
+}
+
+@font-face {
+    font-family: $supr-font-family-montserrat-base;
+    font-weight: 800;
+    src: url("#{$supr-fonts-path}#{$supr-font-family-montserrat-extrabold}.ttf")
+        format("truetype");
+}
+
+@font-face {
+    font-family: $supr-font-family-montserrat-base;
+    font-weight: 700;
+    src: url("#{$supr-fonts-path}#{$supr-font-family-montserrat-bold}.ttf")
+        format("truetype");
+}

@@ -1,0 +1,158 @@
+@import "supr-base";
+
+:host {
+    --supr-text-font-family: inherit;
+    --supr-text-color: var(--black-100);
+    --supr-text-highlight-color: var(--supr-text-color);
+    --supr-text-transform: none;
+    --supr-text-wrap: nowrap;
+    --supr-text-align: inherit;
+    --supr-text-font-size: var(--supr-font-size-regular);
+    --supr-text-font-weight: var(--supr-weight-normal);
+    --supr-text-decoration: none;
+    --supr-text-overflow: auto;
+    --supr-text-text-overflow: inherit;
+    --supr-text-line-height: inherit;
+    --supr-text-letter-spacing: inherit;
+    --supr-text-truncate-line-count: 1;
+
+    .default {
+        font-family: var(--supr-text-font-family) !important;
+        color: var(--supr-text-color);
+        text-transform: var(--supr-text-transform);
+        white-space: var(--supr-text-wrap);
+        text-align: var(--supr-text-align);
+        font-size: var(--supr-text-font-size);
+        font-weight: var(--supr-text-font-weight);
+        text-decoration: var(--supr-text-decoration);
+        text-overflow: var(--supr-text-text-overflow);
+        overflow: var(--supr-text-overflow);
+        line-height: var(--supr-text-line-height);
+        letter-spacing: var(--supr-text-letter-spacing);
+        transition: color 0.1s ease-in, font-size 0.1s ease-in,
+            font-weight 0.1s ease-in;
+
+        &.truncate {
+            overflow: hidden;
+            display: -webkit-box;
+            text-overflow: ellipsis;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: var(--supr-text-truncate-line-count);
+        }
+
+        ::ng-deep span.searchHighlight {
+            color: var(--supr-text-highlight-color);
+            font-weight: bold;
+        }
+
+        &.inline {
+            display: inline-flex;
+        }
+
+        &.title {
+            @include title();
+        }
+
+        &.subtitle {
+            @include subtitle();
+        }
+
+        &.heading {
+            @include heading();
+        }
+
+        &.headingBold {
+            @include heading();
+
+            font-weight: var(--supr-weight-bold);
+        }
+
+        &.subheading {
+            @include subheading();
+        }
+
+        &.subheading600 {
+            @include subheading();
+
+            font-weight: var(--supr-weight-semi-bold);
+        }
+
+        &.paragraph {
+            @include paragraph();
+        }
+
+        &.paragraphSemiBold {
+            @include paragraph();
+
+            font-weight: var(--supr-weight-semi-bold);
+        }
+
+        &.paragraphBold {
+            @include paragraph();
+
+            font-weight: var(--supr-weight-bold);
+        }
+
+        &.caption {
+            @include caption();
+        }
+
+        &.captionSemiBold {
+            @include caption();
+
+            font-weight: var(--supr-weight-semi-bold);
+        }
+
+        &.captionBold {
+            @include caption();
+
+            font-weight: var(--supr-weight-bold);
+        }
+
+        &.action14 {
+            @include action14();
+        }
+
+        &.body {
+            @include body();
+        }
+
+        &.subtext10 {
+            @include subtext10();
+        }
+
+        &.subtextExtraBold10 {
+            @include subtext10();
+
+            font-weight: var(--supr-weight-extra-bold);
+        }
+
+        &.subtext11 {
+            @include subtext11();
+        }
+
+        &.regular14 {
+            @include regular14();
+        }
+
+        &.bold16 {
+            @include bold16();
+        }
+
+        &.montserratExtraBold14 {
+            @include montserratExtraBold14();
+        }
+
+        &.montserratExtraBold16 {
+            @include montserratExtraBold16();
+        }
+
+        &.montserratExtraBold20 {
+            @include montserratExtraBold20();
+        }
+
+        &.montserratExtraBold24 {
+            @include montserratExtraBold24();
+        }
+    }
+}

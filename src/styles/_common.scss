@@ -1,0 +1,170 @@
+@import "supr-base";
+
+.supr {
+    &Container {
+        position: absolute !important;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        background-color: var(--white-100);
+        transition: top 0.3s ease-in-out;
+    }
+
+    &ScrollContent {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        overflow: auto;
+        background-color: var(--white-100);
+        box-sizing: border-box;
+    }
+
+    &Row {
+        @include supr-row;
+    }
+
+    &Column {
+        @include supr-col;
+
+        height: inherit;
+        width: 100%;
+    }
+
+    &Hide {
+        display: none !important;
+    }
+
+    &Invisible {
+        visibility: hidden !important;
+    }
+
+    &Rupee {
+        @include rupee;
+    }
+
+    &Toast {
+        --background: var(--black-90);
+        --border-radius: 8px;
+        --color: var(--white-100);
+        --button-color: var(--primary-100);
+    }
+
+    &Loader {
+        --spinner-color: var(--black-100);
+    }
+}
+
+.divider {
+    &2 {
+        @include divider(2px);
+    }
+
+    &4 {
+        @include divider(4px);
+    }
+
+    &6 {
+        @include divider(6px);
+    }
+
+    &8 {
+        @include divider(8px);
+    }
+
+    &10 {
+        @include divider(10px);
+    }
+
+    &12 {
+        @include divider(12px);
+    }
+
+    &14 {
+        @include divider(14px);
+    }
+
+    &16 {
+        @include divider(16px);
+    }
+
+    &18 {
+        @include divider(18px);
+    }
+
+    &20 {
+        @include divider(20px);
+    }
+
+    &24 {
+        @include divider(24px);
+    }
+
+    &28 {
+        @include divider(28px);
+    }
+
+    &32 {
+        @include divider(32px);
+    }
+
+    &36 {
+        @include divider(36px);
+    }
+}
+
+.spacer {
+    &2 {
+        @include spacer(2px);
+    }
+
+    &4 {
+        @include spacer(4px);
+    }
+
+    &6 {
+        @include spacer(6px);
+    }
+
+    &8 {
+        @include spacer(8px);
+    }
+
+    &12 {
+        @include spacer(12px);
+    }
+
+    &14 {
+        @include spacer(14px);
+    }
+
+    &16 {
+        @include spacer(16px);
+    }
+
+    &20 {
+        @include spacer(20px);
+    }
+
+    &24 {
+        @include spacer(24px);
+    }
+
+    &28 {
+        @include spacer(28px);
+    }
+}
+
+.offline {
+    .suprContainer {
+        top: var(--supr-no-internet-banner-height);
+        height: calc(100% - var(--supr-no-internet-banner-height));
+    }
+
+    .backdrop {
+        top: var(--supr-no-internet-banner-height) !important;
+    }
+}
